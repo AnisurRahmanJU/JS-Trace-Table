@@ -193,4 +193,29 @@ function showFruits(arr) {
 showFruits(fruits);
 ```
 
+## 12. Traffic Light Signal
+```js
+// Traffic Light States
+let lights = ["red", "yellow", "green"];
+
+// Light Instructions
+let actions = { red: "Stop", yellow: "Slow Down", green: "Go" };
+
+// Function to process traffic lights
+function manageTraffic(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    let light = arr[i];
+    
+    if (light === "red") {
+      console.log("STOP! The light is red.");
+    } else {
+      // Accesses the action from the object based on the current light
+      console.log(light.toUpperCase() + ": " + actions[light]);
+    }
+  }
+}
+
+// Call the function
+manageTraffic(lights);
+```
 ## Write more JS codes and Run and Trace it in JS Trace Table.
