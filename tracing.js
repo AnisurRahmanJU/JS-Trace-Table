@@ -149,3 +149,23 @@ function highlightLine() {
     editor.addLineClass(line, "background", "active-line");
     editor.scrollIntoView({ line: line, ch: 0 }, 100);
 }
+
+
+(function() {
+    const tableContainer = document.querySelector('.table-container');
+    const traceTable = document.getElementById('traceTable');
+
+    if (!tableContainer || !traceTable) return;
+
+    // Function to scroll to the bottom
+    function scrollToLatest() {
+        tableContainer.scrollTop = tableContainer.scrollHeight;
+    }
+
+    // Observe changes in the tbody (new rows)
+    const observer = new MutationObserver(scrollToLatest);
+    observer.observe(traceTable, { childList: true });
+
+    // Initial scroll in case rows already exist
+    scrollToLatest();
+})();
