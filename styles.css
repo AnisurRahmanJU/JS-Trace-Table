@@ -139,30 +139,3 @@ th {
     border-radius: 8px;           /* matches table style */
 }
 
-/* Footer Styling */
-.footer {
-    width: 100%;
-    background: #111827;
-    color: #e2e8f0;
-    text-align: center;
-    padding: 12px 0;
-    position: fixed;  /* sticky at bottom */
-    bottom: 0;
-    left: 0;
-    font-size: 0.9rem;
-    border-top: 1px solid #2d3748;
-    z-index: 100;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.3);
-}
-
-/* Footer link styling: no underline */
-.footer a.footer-link {
-    color: #10b981;      /* matches runBtn/OutputBox accent */
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.2s;
-}
-
-.footer a.footer-link:hover {
-    color: #059669;      /* darker accent on hover */
-}
