@@ -98,7 +98,7 @@ table {
     border-collapse: collapse;
     background: #1e293b;
     border-radius: 8px;
-    max-height: 600px;
+    max-height: 200px;
     overflow-y: auto;
 }
 
