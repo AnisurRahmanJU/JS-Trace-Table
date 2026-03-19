@@ -35,7 +35,7 @@ function runCode() {
         // 👉 Add OUTPUT as trace step
         steps.push({
             line: currentExecutingLine,
-            variable: "OUTPUT",
+            variable: "Output",
             value: msg
         });
     };
