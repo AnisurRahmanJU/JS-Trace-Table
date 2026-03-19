@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: #1f3a4d;
+    color: white;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 15px;
+}
+
+.left {
+    border-right: 2px solid #0f172a;
+}
+
+.CodeMirror {
+    height: 300px;
+    background: #0f172a;
+    color: #facc15;
+}
+
+.runBtn {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.outputBox {
+    margin-top: 10px;
+    background: black;
+    padding: 10px;
+    height: 150px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    background: #222;
+}
+
+.navButtons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navButtons button {
+    padding: 8px 15px;
+    margin: 5px;
+}
+
+/* Highlight */
+.active-line {
+    background: rgba(0,255,0,0.3) !important;
+}
