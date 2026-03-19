@@ -167,4 +167,30 @@ for (let i = 0; i < nums.length; i++) {
 * Computes average as numbers are added.
 * Output: 2, 3, 4, 5.
 
+  
+## 11. Array, Function and Object
+  
+```js
+// Array
+let fruits = ["apple", "banana", "cherry"];
+
+// Object
+let colors = { apple: "red", banana: "yellow", cherry: "red" };
+
+// Function
+function showFruits(arr) {
+  for (let i = 0; i < arr.length; i++) {        // Loop
+    let fruit = arr[i];
+    if (colors[fruit] === "red") {              // Condition
+      console.log(fruit + " is red");           // String
+    } else {
+      console.log(fruit + " is " + colors[fruit]);
+    }
+  }
+}
+
+// Call the function
+showFruits(fruits);
+```
+
 ## Write more JS codes and Run and Trace it in JS Trace Table.
