@@ -70,24 +70,3 @@ let editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 </script>
 </body>    
 </html>
-<!--<script>
-// Auto-scroll trace table to show latest row
-(function() {
-    const tableContainer = document.querySelector('.table-container');
-    const traceTable = document.getElementById('traceTable');
-
-    if (!tableContainer || !traceTable) return;
-
-    // Function to scroll to the bottom
-    function scrollToLatest() {
-        tableContainer.scrollTop = tableContainer.scrollHeight;
-    }
-
-    // Observe changes in the tbody (new rows)
-    const observer = new MutationObserver(scrollToLatest);
-    observer.observe(traceTable, { childList: true });
-
-    // Initial scroll in case rows already exist
-    scrollToLatest();
-})();
-</script>
