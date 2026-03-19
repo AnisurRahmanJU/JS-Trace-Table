@@ -1,77 +1,131 @@
+/* General Layout */
 body {
     margin: 0;
-    background: #1f3a4d;
-    color: white;
-    font-family: sans-serif;
+    background: #1a202c; /* Deep, muted grey-blue */
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title {
     text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    background: #111827;
 }
 
 .container {
     display: flex;
-    height: 90vh;
+    height: calc(100vh - 50px);
 }
 
 .left, .right {
     width: 50%;
-    padding: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .left {
-    border-right: 2px solid #0f172a;
+    border-right: 1px solid #2d3748;
 }
 
-.CodeMirror {
-    height: 300px;
+/* --- Eye-Comfort CodeMirror Theme --- */
+.cm-s-eye-comfort.CodeMirror {
+    background: #0f172a; /* Soft dark blue */
+    color: #cbd5e1;
+    font-size: 14px;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+    height: 350px;
+}
+
+/* Gutter and Line Numbers */
+.cm-s-eye-comfort .CodeMirror-gutters {
     background: #0f172a;
-    color: #facc15;
+    border-right: 1px solid #1e293b;
+}
+.cm-s-eye-comfort .CodeMirror-linenumber {
+    color: #475569;
 }
 
+/* Soft Syntax Highlighting */
+.cm-s-eye-comfort span.cm-keyword { color: #818cf8; }   /* Muted Indigo */
+.cm-s-eye-comfort span.cm-variable { color: #94a3b8; }  /* Slate Blue */
+.cm-s-eye-comfort span.cm-variable-2 { color: #38bdf8; } /* Soft Cyan */
+.cm-s-eye-comfort span.cm-number { color: #fbbf24; }    /* Soft Amber */
+.cm-s-eye-comfort span.cm-def { color: #2dd4bf; }       /* Teal */
+.cm-s-eye-comfort span.cm-operator { color: #94a3b8; }
+.cm-s-eye-comfort span.cm-comment { color: #64748b; font-style: italic; }
+.cm-s-eye-comfort span.cm-string { color: #34d399; }    /* Soft Emerald */
+
+/* Selection and Cursor */
+.cm-s-eye-comfort .CodeMirror-cursor { border-left: 2px solid #6366f1; }
+.cm-s-eye-comfort .CodeMirror-selected { background: rgba(99, 102, 241, 0.2); }
+
+/* UI Elements */
 .runBtn {
     width: 100%;
-    padding: 10px;
-    background: green;
+    padding: 12px;
+    background: #10b981;
     border: none;
+    border-radius: 6px;
     color: white;
-    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.2s;
 }
 
+.runBtn:hover { background: #059669; }
+
 .outputBox {
-    margin-top: 10px;
-    background: black;
-    padding: 10px;
-    height: 150px;
-    overflow: auto;
+    margin-top: 15px;
+    background: #000;
+    border-radius: 8px;
+    padding: 15px;
+    flex-grow: 1;
+    font-family: monospace;
+    color: #10b981;
+}
+
+/* Table Styling */
+.right {
+    overflow-y: auto;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    background: #1e293b;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 th, td {
-    border: 1px solid #555;
-    padding: 6px;
-    text-align: center;
+    border: 1px solid #334155;
+    padding: 10px;
+    text-align: left;
 }
 
 th {
-    background: #222;
-}
-
-.navButtons {
-    text-align: center;
-    margin-top: 10px;
+    background: #334155;
+    color: #f1f5f9;
+    font-size: 0.9rem;
 }
 
 .navButtons button {
-    padding: 8px 15px;
+    padding: 10px 20px;
     margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #475569;
+    background: #1e293b;
+    color: white;
+    cursor: pointer;
 }
 
-/* Highlight */
+.navButtons button:hover { background: #334155; }
+
+/* Line Highlighting */
 .active-line {
-    background: rgba(0,255,0,0.3) !important;
+    background: rgba(45, 212, 191, 0.15) !important;
 }
