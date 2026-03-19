@@ -70,7 +70,8 @@ After running this code, your trace table would look something like this (step-b
 | 9    | sum      | 10    |
 | 10   | i        | 5     |
 | 11   | sum      | 15    |
-| 12   | Output   | 15    |
+| 12   | i        | 6     |
+| 13   | Output   | 15    |
 
 **Explanation of Table Steps**:
 
