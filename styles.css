@@ -90,7 +90,7 @@ body {
 
 /* Table Styling */
 .right {
-    overflow-y: auto;   /* vertical scrolling */
+   /* vertical scrolling */
 }
 
 table {
