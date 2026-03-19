@@ -91,6 +91,7 @@ body {
 /* Table Styling */
 .right {
    overflow-x: auto;
+   overflow-y: auto;
 }
 
 table {
