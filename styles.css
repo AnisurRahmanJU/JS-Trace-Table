@@ -90,7 +90,8 @@ body {
 
 /* Table Styling */
 .right {
-    overflow-y: auto;
+    max-height: 600px;  /* 15 rows এর উচ্চতা ধরে নিলাম */
+    overflow-y: auto;   /* vertical scrolling */
 }
 
 table {
