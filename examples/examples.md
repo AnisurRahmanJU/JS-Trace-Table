@@ -218,7 +218,7 @@ function manageTraffic(arr) {
 // Call the function
 manageTraffic(lights);
 ```
-## Buy Something to Cart
+## 13. Buy Something to Cart
 ```js
 let total = 0;
 let shopping = true;
@@ -242,5 +242,41 @@ while (shopping) {
         console.log("Item not available.");
     }
 }
+```
+## 14. Number Guessing Game
+```js
+// Number Guessing Game (browser version using prompt)
+
+let k = Math.floor(Math.random() * 100); // random number between 0 and 99
+let count = 1;
+
+// Ask the user for the first guess
+let kh = Number(prompt("Guess the number (0-99):"));
+
+function guess() {
+    // Check if input is a valid number
+    if (isNaN(kh)) {
+        kh = Number(prompt("Please enter a valid number! Try again:"));
+        guess();
+        return;
+    }
+
+    if (kh === k) {
+        console.log("Congratulations! You guessed the number: " + kh);
+        console.log("It took you " + count + " guesses.");
+        alert("You guessed it right! The number was " + kh + ". It took " + count + " guesses.");
+    } else if (kh > k) {
+        count++;
+        kh = Number(prompt("Too high! Try a smaller number:"));
+        guess();
+    } else if (kh < k) {
+        count++;
+        kh = Number(prompt("Too low! Try a bigger number:"));
+        guess();
+    }
+}
+
+// Start the game
+guess();
 ```
 ## Write more JS codes and Run and Trace it in JS Trace Table.
