@@ -84,9 +84,8 @@ body {
     font-family: monospace;
     color: #10b981;
     overflow: auto;      /* scrollable */
-    white-space: pre;    /* preserve spaces/newlines */
     text-align: left;    /* left-aligned text */
-    display: block;      /* normal block behavior */
+        
 }
 
 
