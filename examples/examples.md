@@ -218,4 +218,29 @@ function manageTraffic(arr) {
 // Call the function
 manageTraffic(lights);
 ```
+## Buy Something to Cart
+```js
+let total = 0;
+let shopping = true;
+
+while (shopping) {
+    let item = prompt("Enter item to buy (apple, banana, orange) or 'exit' to finish:");
+
+    if (item === null || item.toLowerCase() === 'exit') {
+        shopping = false; // Stop the loop
+        console.log("Shopping finished. Final total: $" + total);
+    } else if (item.toLowerCase() === "apple") {
+        total += 2;
+        console.log("You bought an Apple. Current total: $" + total);
+    } else if (item.toLowerCase() === "banana") {
+        total += 1;
+        console.log("You bought a Banana. Current total: $" + total);
+    } else if (item.toLowerCase() === "orange") {
+        total += 3;
+        console.log("You bought an Orange. Current total: $" + total);
+    } else {
+        console.log("Item not available.");
+    }
+}
+```
 ## Write more JS codes and Run and Trace it in JS Trace Table.
