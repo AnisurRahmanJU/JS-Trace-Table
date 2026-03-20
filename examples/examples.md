@@ -296,7 +296,7 @@ function guess() {
     }
 
     if (kh === k) {
-        console.log("Congratulations! You guessed the number: " + kh);
+        console.log("Congratulations! You have guessed the number: " + kh);
         console.log("It took you " + count + " guesses.");
         alert("You guessed it right! The number was " + kh + ". It took " + count + " guesses.");
     } else if (kh > k) {
