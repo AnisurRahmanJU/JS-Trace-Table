@@ -19,11 +19,11 @@ console.log(sum);
 
 
 
-## 2. Factorial of 4
+## 2. Factorial of 5
 
 ```javascript
 let fact = 1;
-for (let n = 1; n <= 4; n++) {
+for (let n = 1; n <= 5; n++) {
     fact *= n;
 }
 console.log(fact);
@@ -31,9 +31,9 @@ console.log(fact);
 
 **Trace Table Behavior:**
 
-* `n` increments 1 → 4.
-* `fact` multiplies sequentially: 1 → 1 → 2 → 6 → 24.
-* Output: 24.
+* `n` increments 1 → 5.
+* `fact` multiplies sequentially: 1 → 1 → 2 → 6 → 24 → 120.
+* Output: 120.
 
 
 ## 3. Fibonacci Sequence (First 5 Terms)
