@@ -350,7 +350,6 @@ console.log("SQRT1_2:", Math.SQRT1_2);  // Square root of 1/2
 console.log("SQRT2:", Math.SQRT2);      // Square root of 2
 
 // --- BASIC FUNCTIONS ---
-console.log("Random:", Math.random());
 console.log("Abs:", Math.abs(-5));           // 5 (Absolute value)
 console.log("Max:", Math.max(1, 10, 5));     // 10 (Highest value)
 console.log("Min:", Math.min(1, 10, 5));     // 1 (Lowest value)
