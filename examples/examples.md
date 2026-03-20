@@ -95,6 +95,12 @@ for (let i = 1; i < arr.length; i++) {
 }
 console.log(max);
 ```
+
+**Trace Table Behavior:**
+
+* `max` updates when a larger number is found.
+* Output: 9.
+
 ```js
 // Array or List
 let numbers = [10, 25, 5, 30, 15];
@@ -109,11 +115,6 @@ for (let i = 1; i < numbers.length; i = i + 1) {
 console.log("Maximum number: " + max);
 
 ```
-
-**Trace Table Behavior:**
-
-* `max` updates when a larger number is found.
-* Output: 9.
 
 
 ## 7. Check Prime Number
