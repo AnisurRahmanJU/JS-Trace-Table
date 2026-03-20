@@ -79,7 +79,6 @@ body {
 .runBtn:hover { background: #059669; }
 
 .outputBox {
-    margin-top: 15px;
     background: #000;
     border-radius: 8px;
     padding: 15px;
