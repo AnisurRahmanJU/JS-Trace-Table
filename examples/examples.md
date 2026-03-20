@@ -167,6 +167,25 @@ for (let i = 0; i < nums.length; i++) {
 * Computes average as numbers are added.
 * Output: 2, 3, 4, 5.
 
+```js
+// Loop
+let a = 1;
+let b = 20;
+
+for (a = 1; a < b; a++) {
+    if (a % 2 == 0) {
+        // Continue
+        continue;
+    } else if (a == 15) {
+        // Break
+        break;
+    } else {
+        console.log(a);
+    }
+}
+
+```
+
   
 ## 11. Array, Function and Object
   
