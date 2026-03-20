@@ -79,17 +79,17 @@ body {
 .runBtn:hover { background: #059669; }
 
 .outputBox {
+    margin-top: 15px;
     background: #000;
     border-radius: 8px;
-    padding: 50px;
+    padding: 15px;
     flex-grow: 1;
     font-family: monospace;
     color: #10b981;
     overflow: auto;       /* scrollable */
     white-space: pre;     /* preserve spacing for code-like content */
-    display: flex;
-    flex-direction: column; /* content vertically stacked */
-    justify-content: flex-start; /* start থেকে শুরু হবে */
+    text-align: left;     /* top-left alignment */
+    display: block;       /* flex সরানো, normal block behavior */
 }
 
 
