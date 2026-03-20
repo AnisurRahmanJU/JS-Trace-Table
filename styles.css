@@ -86,7 +86,10 @@ body {
     flex-grow: 1;
     font-family: monospace;
     color: #10b981;
+    overflow: auto;       /* enable both vertical and horizontal scroll */
+    white-space: pre;     /* preserve spacing for code-like content */
 }
+
 
 /* Table Styling */
 .right {
