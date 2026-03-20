@@ -281,7 +281,7 @@ while (shopping) {
 ```js
 // Number Guessing Game (browser version using prompt)
 
-let k = Math.floor(Math.random() * 100); // random number between 0 and 99
+let k = Math.floor(Math.random() * 10); // random number between 0 and 99
 let count = 1;
 
 // Ask the user for the first guess
