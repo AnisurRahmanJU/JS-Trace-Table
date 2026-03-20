@@ -81,6 +81,7 @@ body {
 .outputBox {
     background: #000;
     border-radius: 8px;
+    padding: 50px;
     flex-grow: 1;
     font-family: monospace;
     color: #10b981;
