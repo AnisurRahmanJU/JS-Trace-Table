@@ -343,7 +343,7 @@ console.log(isCorrect); // true
 console.log("PI:", Math.PI);            // 3.14159...
 console.log("E:", Math.E);              // Euler's number
 console.log("LN2:", Math.LN2);          // Natural log of 2
-    console.log("LN10:", Math.LN10);        // Natural log of 10
+console.log("LN10:", Math.LN10);        // Natural log of 10
 console.log("LOG2E:", Math.LOG2E);      // Log base 2 of E
 console.log("LOG10E:", Math.LOG10E);    // Log base 10 of E
 console.log("SQRT1_2:", Math.SQRT1_2);  // Square root of 1/2
