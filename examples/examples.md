@@ -337,4 +337,65 @@ console.log(8 % 2 == 0); // true  (8 is even)
 let isCorrect = true;
 console.log(isCorrect); // true
 ```
+## 16. All math function are used
+```js
+// --- CONSTANTS ---
+console.log("PI:", Math.PI);            // 3.14159...
+console.log("E:", Math.E);              // Euler's number
+console.log("LN2:", Math.LN2);          // Natural log of 2
+    console.log("LN10:", Math.LN10);        // Natural log of 10
+console.log("LOG2E:", Math.LOG2E);      // Log base 2 of E
+console.log("LOG10E:", Math.LOG10E);    // Log base 10 of E
+console.log("SQRT1_2:", Math.SQRT1_2);  // Square root of 1/2
+console.log("SQRT2:", Math.SQRT2);      // Square root of 2
+
+// --- BASIC FUNCTIONS ---
+console.log("Abs:", Math.abs(-5));           // 5 (Absolute value)
+console.log("Max:", Math.max(1, 10, 5));     // 10 (Highest value)
+console.log("Min:", Math.min(1, 10, 5));     // 1 (Lowest value)
+console.log("Random:", Math.random());       // 0 to <1
+console.log("Sign:", Math.sign(-10));        // -1 (Returns -1, 0, or 1)
+
+// --- ROUNDING ---
+console.log("Round:", Math.round(4.5));      // 5 (Standard rounding)
+console.log("Floor:", Math.floor(4.9));      // 4 (Round down)
+console.log("Ceil:", Math.ceil(4.1));        // 5 (Round up)
+console.log("Trunc:", Math.trunc(4.9));      // 4 (Remove decimals)
+console.log("Fround:", Math.fround(1.33));   // 1.33... (Nearest 32-bit float)
+
+// --- POWERS & ROOTS ---
+console.log("Pow:", Math.pow(2, 3));         // 8 (2 to the power of 3)
+console.log("Sqrt:", Math.sqrt(64));         // 8 (Square root)
+console.log("Cbrt:", Math.cbrt(27));         // 3 (Cube root)
+console.log("Hypot:", Math.hypot(3, 4));     // 5 (sqrt of sum of squares)
+
+// --- EXPONENTS & LOGS ---
+console.log("Exp:", Math.exp(1));            // e^1
+console.log("Expm1:", Math.expm1(1));        // e^1 - 1
+console.log("Log:", Math.log(10));           // Natural log
+console.log("Log1p:", Math.log1p(1));        // Natural log of (1 + x)
+console.log("Log10:", Math.log10(100));      // Log base 10
+console.log("Log2:", Math.log2(8));          // Log base 2
+
+// --- TRIGONOMETRY (In Radians) ---
+console.log("Sin:", Math.sin(Math.PI/2));    // 1
+console.log("Cos:", Math.cos(Math.PI));      // -1
+console.log("Tan:", Math.tan(Math.PI/4));    // 1
+console.log("Asin:", Math.asin(1));          // Arcsine
+console.log("Acos:", Math.acos(1));          // Arccosine
+console.log("Atan:", Math.atan(1));          // Arctangent
+console.log("Atan2:", Math.atan2(1, 1));     // Arctangent of quotient
+
+// --- HYPERBOLIC ---
+console.log("Sinh:", Math.sinh(1));          // Hyperbolic sine
+console.log("Cosh:", Math.cosh(1));          // Hyperbolic cosine
+console.log("Tanh:", Math.tanh(1));          // Hyperbolic tangent
+console.log("Asinh:", Math.asinh(1));        // Inverse hyperbolic sine
+console.log("Acosh:", Math.acosh(1));        // Inverse hyperbolic cosine
+console.log("Atanh:", Math.atanh(0.5));      // Inverse hyperbolic tangent
+
+// --- INTEGERS ---
+console.log("Clz32:", Math.clz32(1));        // Leading zero bits in 32-bit int
+console.log("Imul:", Math.imul(2, 4));       // 32-bit integer multiplication
+```
 ## Write more JS codes and Run and Trace it in JS Trace Table.
