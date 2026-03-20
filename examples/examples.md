@@ -313,4 +313,28 @@ function guess() {
 // Start the game
 guess();
 ```
+## 15. Boolean Operation 
+```js
+// Condition Operation
+console.log(5 > 3);           // true (5 is larger)
+console.log(10 == 15);        // false (10 and 15 are not equal)
+console.log("Likhan" == "Likhan"); // true (Values are identical)
+console.log("Bangla" != "Code");   // true (Values are not identical)
+
+// Logical Operation
+console.log((10 > 5) && (20 < 30)); // true (AND)
+console.log((5 > 10) || (20 < 30));  // true (OR)
+console.log(!(5 > 10));              // true (NOT)
+
+// String Check
+console.log("Likhan".length > 0); // true (String is not empty)
+
+// Number Check
+console.log(7 % 2 == 0); // false (7 is odd)
+console.log(8 % 2 == 0); // true  (8 is even)
+
+// Directly Boolean Variable
+let isCorrect = true;
+console.log(isCorrect); // true
+```
 ## Write more JS codes and Run and Trace it in JS Trace Table.
