@@ -83,12 +83,11 @@ body {
     border-radius: 8px;
     font-family: monospace;
     color: #10b981;
-    overflow: auto;      /* scrollable */
-    text-align: left;    /* left-aligned text */
+    overflow: auto;       /* scrollable */
+    text-align: left;     /* left-aligned text */
     height: 200px;
-        
+    padding-left: 1ch;    /* horizontal space at start */
 }
-
 
 /* Table Styling */
 .right {
