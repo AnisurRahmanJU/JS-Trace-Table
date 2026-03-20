@@ -40,7 +40,7 @@ console.log(fact);
 
 ```javascript
 let a = 0, b = 1;
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 10; i++) {
     let temp = a;
     a = b;
     b = temp + b;
