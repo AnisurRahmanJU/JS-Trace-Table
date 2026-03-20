@@ -95,6 +95,20 @@ for (let i = 1; i < arr.length; i++) {
 }
 console.log(max);
 ```
+```js
+// Array or List
+let numbers = [10, 25, 5, 30, 15];
+let max = numbers[0];
+
+for (let i = 1; i < numbers.length; i = i + 1) {
+  if (numbers[i] > max) {
+    max = numbers[i];
+  }
+}
+
+console.log("Maximum number: " + max);
+
+```
 
 **Trace Table Behavior:**
 
