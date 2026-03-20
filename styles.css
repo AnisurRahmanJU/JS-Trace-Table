@@ -135,7 +135,7 @@ th {
 /* --- NEW: Table container for vertical scroll when 5+ rows --- */
 .table-container {
     display: block;               /* make it block-level */
-    max-height: calc(7 * 48px);   /* approximate 5 row heights */
+    max-height: calc(5 * 48px);   /* approximate 5 row heights */
     overflow-y: auto;             /* vertical scroll appears if more than 5 rows */
     border-radius: 8px;           /* matches table style */
 }
