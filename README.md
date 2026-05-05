@@ -2,7 +2,7 @@
 JS Trace Table for JavaScript Code & Run
 
 ## Limitation 
-- Function Code Run Properly, But-
-- Function Call Not Tracing
-- Recursive Call Not Tracing
+- `Function` Code Run Properly, But-
+- `Function` Call Not Tracing
+- `Recursive` Call Not Tracing
 
