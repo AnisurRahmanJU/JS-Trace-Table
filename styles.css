@@ -23,7 +23,7 @@ body { margin: 0; background: #1a202c; color: #e2e8f0; font-family: 'Segoe UI', 
 
 /* UI Elements */
 .runBtn, .navButtons button { padding: 12px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.2s; border: none; }
-.runBtn { width: 100px; background: #10b981; color: #fff; margin-top: 15px; }
+.runBtn { width: 80px; background: #10b981; color: #fff; margin-top: 15px; }
 .runBtn:hover { background: #059669; }
 
 .navButtons button { padding: 10px 20px; margin: 5px; border: 1px solid #475569; background: #1e293b; color: #fff; }
