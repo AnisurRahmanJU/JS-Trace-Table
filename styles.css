@@ -37,7 +37,7 @@ table { width: 100%; border-collapse: collapse; background: #1e293b; border-radi
 th, td { border: 1px solid #334155; padding: 10px; text-align: left; }
 th { background: #334155; color: #f1f5f9; font-size: 0.9rem; }
 .active-line { background: rgba(45, 212, 191, 0.15) !important; }
-.table-container { display: block; max-height: 300 px; border-radius: 8px; }
+.table-container { display: block; max-height: 240px; border-radius: 8px; }
 
 /* Footer */
 footer { background: #111827; padding: 20px 0; text-align: center; border-top: 1px solid #2d3748; }
