@@ -17,11 +17,15 @@
     <!-- LEFT PANEL -->
     <div class="left">
         <textarea style="font-size:20px;" id="code">
-let sum = 0;
-for(let i = 1; i <= 5; i++){
-    sum = sum + i;
+for (let i = 1; i <= 20; i++) {
+ if (i % 2 == 0) {
+    continue; 
+  }
+  if (i == 15) {
+    break;
+  }
+  console.log(i);
 }
-console.log(sum);
         </textarea>
 
         <button class="runBtn" onclick="runCode()">RUN ▶</button><br>
