@@ -1,6 +1,6 @@
 /* Layout & Global */
 body { margin: 0; background: #1a202c; color: #e2e8f0; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
-.title { text-align: center; padding: 10px 0; background: #111827; }
+.title { text-align: left; padding: 10px 0; background: #111827; }
 .container { display: flex; flex: 1; height: calc(100vh - 50px); }
 .left, .right { width: 50%; padding: 20px; display: flex; flex-direction: column; }
 .left { border-right: 1px solid #2d3748; }
