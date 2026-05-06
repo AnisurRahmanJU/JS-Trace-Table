@@ -29,7 +29,7 @@ body { margin: 0; background: #1a202c; color: #e2e8f0; font-family: 'Segoe UI', 
 .navButtons button { padding: 10px 20px; margin: 5px; border: 1px solid #475569; background: #1e293b; color: #fff; }
 .navButtons button:hover { background: #334155; }
 
-.outputBox { background: #000; border-radius: 8px; font-family: monospace; color: #10b981; overflow: auto; height: 200px; padding-left: 1ch; }
+.outputBox { background: #000; border-radius: 8px; font-family: monospace; color: #10b981; overflow: auto; height: 200px; padding-left: 1ch;  font-size: 16px; }
 
 /* Table Styling */
 .right, .table-container { overflow: auto; }
