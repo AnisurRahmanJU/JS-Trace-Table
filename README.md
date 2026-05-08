@@ -22,6 +22,7 @@ for(){
 const array = [1,2,3,4,5];
 //2d Array
 const array_2d = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+// otherwise syntax error will be displayed.
 ```
 
 
