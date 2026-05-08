@@ -8,10 +8,10 @@ JS Trace Table for JavaScript Code & Run
 - Carly Brace `{}` use our Style-
 ```javascript
 for(){
- if(){
- }
- else{
- }
+  if(){
+  }
+  else{
+  }
 }
 ```
 
