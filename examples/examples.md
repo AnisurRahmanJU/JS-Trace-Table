@@ -158,13 +158,23 @@ for (let i = 1; i <= 3; i++) {
     }
 }
 ```
-
 **Trace Table Behavior:**
 
 * `i` outer loop 1 → 3, `j` inner loop 1 → 3.
 * Outputs multiplication table: 1×1=1 … 3×3=9.
 
+`2D Array Using nested Loop`
+```javascript
+const grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 
+for (let i = 0; i < grid.length; i++) {
+  let rowOutput = ""; 
+  for (let j = 0; j < grid[i].length; j++) {
+    rowOutput += grid[i][j] + "  "; 
+  }
+  console.log(rowOutput.trim()); 
+}
+```
 
 ## 10. Running Average
 
